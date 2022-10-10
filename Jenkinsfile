@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Testing maven') {
             steps {
-                echo """"mvn -version"""
+                echo """mvn -version"""
             }
         }
     }
