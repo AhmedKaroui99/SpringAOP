@@ -7,5 +7,10 @@ pipeline {
                 sh "mvn -version"
             }
         }
+        stage('Testing maven') {
+            steps {
+                sh "mvn compile"
+            }
+        }
     }
 }
