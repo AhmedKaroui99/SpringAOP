@@ -9,7 +9,7 @@ pipeline {
         }
         stage('Testing maven') {
             steps {
-                sh "mvn compile"
+                sh "git --version"
             }
         }
     }
